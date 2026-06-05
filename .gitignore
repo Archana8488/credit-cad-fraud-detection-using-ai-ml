@@ -1,0 +1,29 @@
+# ======================
+# NODE (Frontend)
+# ======================
+frontend/node_modules/
+node_modules/
+
+# datasets (VERY IMPORTANT for your case)
+*.csv
+backend/dataset/
+
+# database files
+*.db
+
+# model files (too large sometimes)
+*.pkl
+
+# python cache
+__pycache__/
+*.pyc
+
+# env
+.env
+
+# logs
+*.log
+
+# build outputs
+build/
+dist/
